@@ -287,13 +287,6 @@ class HTMLview {
         $_SESSION[self::$message] = self::$loginMessage;
     }
 
-    /**
-     * @param String $errorMsg
-     */
-    public function setErrorMessageSession($errorMsg)
-    {
-        $_SESSION[self::$message] = $errorMsg;
-    }
 
     /**
      * Set the cookie error message
